@@ -1,9 +1,10 @@
 {
   "name": "geo-access-checker-pptr",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool to check website access based on geographical location using Puppeteer.",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,12 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "puppeteer": "^21.1.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.5.9",
+    "@types/puppeteer": "^7.0.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
