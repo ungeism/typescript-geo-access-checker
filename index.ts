@@ -9,8 +9,7 @@ const USERNAME: string | undefined = process.env.PROXY_USERNAME;
 const PASSWORD: string | undefined = process.env.PROXY_PASSWORD;
 const BASIC_AUTH_ID: string | undefined = process.env.BASIC_AUTH_ID;
 const BASIC_AUTH_PASSWD: string | undefined = process.env.BASIC_AUTH_PASSWD;
-// アクセスするサイトのドメイン以降を記載
-const BASIC_AUTH_URL: string | undefined = "dev.e-life.shopping/";
+const BASIC_AUTH_URL: string | undefined = process.env.BASIC_AUTH_URL;
 
 let browser: Browser | undefined;
 
